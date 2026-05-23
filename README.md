@@ -8,9 +8,6 @@
 
 > Team Skyrim’s edge-native Structural Health Monitoring (SHM) system extracts an Acoustic Physically Unclonable Function (PUF) from critical mechanical assemblies to detect physical tampering and degradation in real-time. By bridging the aerospace cyber-physical gap, this framework acts as a localized, Zero-Trust hardware authenticator for aircraft fleets without relying on heavy cloud bandwidth.
 
-## 📸 Visual Demo
-![Acoustic PUF Spectrogram & AI Dashboard](link-to-your-spectrogram-or-dashboard-image.png)
-
 ## ⚙️ Core Features
 * **Multi-Class Fault Diagnosis AI:** A Grouped Convolutional Denoising Autoencoder (GCDAE) paired with a Support Vector Machine (SVM) locally classifies mechanical states (e.g., nominal vs. loosened structural fasteners) based on deep latent space feature extraction.
 * **High-Frequency Edge DAQ:** Custom embedded architecture utilizes Direct Memory Access (DMA) on a heterogeneous edge node to capture 250kHz+ piezoelectric micro-vibration data synchronously with ambient MEMS microphones.
@@ -21,7 +18,7 @@
 * **Languages:** Python 3.10+, C/C++
 * **Machine Learning:** PyTorch, Scikit-learn, SciPy, NumPy, Pandas
 * **Embedded/Hardware:** STM32 HAL / ESP-IDF (Analog front-end data acquisition)
-* **Digital Twin & Simulation:** ANSYS Workbench (Modal, Harmonic, Transient Analysis), Autodesk Fusion 360
+* **Modeling & Simulation:** ANSYS Workbench (Modal, Harmonic, Transient Analysis), Autodesk Fusion 360
 * **Environment:** Ubuntu Linux
 
 ## 🚀 Quick Start
